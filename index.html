@@ -17,25 +17,25 @@
             <div class="form-group">
                 <!-- Full Name -->
                 <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Full Name"
+                <input type="text" id="name" placeholder="Full Name" name="name"
                 required minlength="3" maxlength="100">
             </div>
             <div class="form-group">
                 <!-- Phone number -->
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" placeholder="111-111-1111"
+                <input type="tel" id="phone" placeholder="111-111-1111" name="phone"
                 required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             </div>
             <div class="form-group">
                 <!-- Email -->
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="email@address.com"
+                <input type="email" id="email" placeholder="email@address.com" name="email"
                 required>
             </div>
             <div class="form-group">
                 <!-- Website -->
                 <label for="website">Website</label>
-                <input type="url" id="website" placeholder="http://google.com"
+                <input type="url" id="website" placeholder="http://google.com" name="website"
                 required>
             </div>
             <div class="form-group">
@@ -43,7 +43,7 @@
                 <label for="password1">Password</label>
                 <input type="password" id="password1" placeholder="Password (Min 8 characters"
                 required pattern ="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
-                title="Include at least 1 uppercase character, 1 lowercase character and 1 number">
+                title="Include at least 1 uppercase character, 1 lowercase character and 1 number" name ="password">
             </div>
             <div class="form-group">
                 <!-- Confirm password -->
